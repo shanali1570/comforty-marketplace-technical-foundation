@@ -1,0 +1,8 @@
+,,,,,,
+Test Case Report (CVS),,,,,,
+Test Case ID,Test Case Name,Category,Expected Outcome,Actual Outcome,Pass/Fail,Remarks
+TC001,Verify Home Page Loading,Performance,Page loads under 3 seconds,Page load exceeds 13 seconds,Fail,Optimize page load time
+TC002,Check Accessibility Contrast,Accessibility,All text and backgrounds have sufficient contrast,Low contrast detected,Fail,Improve text contrast ratio
+TC003,Validate Image Aspect Ratio,Best Practices,Images are displayed with correct dimensions,Images have incorrect dimensions,Fail,Adjust image dimensions
+TC004,Test Third-party Cookies,Best Practices,No third-party cookies are found,One third-party cookie found,Fail,Review third-party cookie usage
+TC005,Check SEO Metadata,SEO,Structured metadata is valid,Structured metadata is valid,Pass,No action needed
