@@ -1,0 +1,8 @@
+,,,,
+Performance Testing Report (CSV),,,,
+Metric,Value (Desktop),Value (Mobile),Issues Identified,Recommendations
+First Contentful Paint (FCP),0.9s,0.3s,Delayed rendering of above-the-fold content,Optimize rendering pipeline and preload critical resources
+Largest Contentful Paint (LCP),13.2s,2.9s,Heavy images and unoptimized scripts,Compress images and minimize scripts
+Total Blocking Time,"6,030ms",880ms,Long JavaScript execution times,Minimize JavaScript and improve server response time
+Speed Index,5.6s,2.1s,Slow visual rendering,Implement lazy loading and caching strategies
+Cumulative Layout Shift (CLS),0,0,None,Maintain current implementation
